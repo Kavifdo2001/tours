@@ -31,12 +31,7 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
-    'google' =>[
-        'client_id' => '739412650866-6g63ldod9bjhf3oehe27cbv2b3t95dk2.apps.googleusercontent.com',
-        'client_secret' => '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',
-        'redirect' => 'https://kingsrilankatours.com/auth/google/callback',
-//        'redirect' => 'http://127.0.0.1:8000/auth/google/callback',
-    ],
+
 
 
 ];
